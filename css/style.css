@@ -47,17 +47,17 @@ body{
   color: #DB4D4D;
 }
 
-.menu{
+.menu, .redes{
   list-style:none;
   float:right; 
 }
 
-.menu li{
+.menu li, .redes li{
   position:relative;
   float:left;
   }
 
-.menu li a{
+.menu li a, .redes li a{
   text-decoration:none; 
    padding:5px 20px; 
    display:block;
