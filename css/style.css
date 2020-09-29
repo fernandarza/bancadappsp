@@ -1,0 +1,79 @@
+header nav{
+  display: inline;
+  justify-content: center;
+}
+
+a:visited {
+  color: initial;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/Galano\ Grotesque.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/Galano\ Grotesque\ Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('/fonts/Galano\ Grotesque\ Italic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body{
+  font-family: 'Galano Grotesque';
+  color: #3C3C3B;
+}
+
+.titulo-principal p{
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.titulo-principal p{
+  font-size: 3em;
+}
+
+.titulo-principal p:nth-child(2){
+  font-size: 4em;
+  color: #DB4D4D;
+}
+
+.menu{
+  list-style:none;
+  float:right; 
+}
+
+.menu li{
+  position:relative;
+  float:left;
+  }
+
+.menu li a{
+  text-decoration:none; 
+   padding:5px 20px; 
+   display:block;
+}
+
+section{
+  display: flex;
+  justify-content: flex-end;
+}
+
+article{
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.quemSomos img{
+  display: block;
+}
